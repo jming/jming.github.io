@@ -1,0 +1,190 @@
+/* GENERAL */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /*padding-top: 100px;*/
+  margin-bottom: 30px;
+  margin-top: 80px;
+  font-family: 'Oxygen', 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #966fd6;
+	font-weight: 400;
+}
+
+a:hover, 
+a:focus {
+	color: #966fd6;
+	font-weight: 400;
+}
+
+.title {
+	letter-spacing: 0.8px;
+	font-size: 20px;
+}
+
+/* Jumbotrons */
+
+.jumbotron {
+	background: none;
+	height: 550px;
+	width: 100%;
+	display: table;
+	padding-top: 100px;
+}
+
+.jumbotron p {
+	/*line-height: 90%;*/
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.jumbotron h1 {
+	font-family: 'Allura', cursive;
+	color: #966fd6;
+	margin: 0px;
+	font-size: 45px;
+}
+
+.jumbotron h2 {
+	font-family: 'Oxygen';
+	font-weight: 100;
+	font-size: 20px;
+	margin: 0px;
+	/*letter-spacing: 1px;*/
+}
+
+.jumbotron h3 {
+	font-family: 'Oxygen';
+	/*font-weight: 700;*/
+	letter-spacing: 1px;
+	color:#777;
+	/*font-weight: 700px;*/
+}
+
+.jumbotron .activities-info li,
+.jumbotron .experience-info {
+	font-size:14px;
+	/*line-height: 90%;*/
+	font-weight: 400;
+	letter-spacing: 0.2px;
+}
+
+.jumbotron .activities-info li {
+	line-height: 150%;
+}
+
+#wrapper {
+	height: 100%;
+}
+
+#cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* Highlights */
+
+.jumbotron .thumbnail {
+	border: none;
+	margin-bottom: 0px;
+	/*height: 120px;*/
+	/*width: 120px;*/
+}
+
+.jumbotron .thumbnail .caption p {
+	font-size: 12px;
+}
+
+.highlight-info {
+	padding-left: 12px;
+}
+
+.highlight-info i {
+	font-size: 18px;
+}
+
+/* Navbar */
+
+.navbar-default .navbar-brand {
+	font-size: 48px;
+	color: black;
+}
+
+.navbar-default {
+	background: white;
+	padding: 20px 40px 10px 40px;
+  border-bottom: thick solid #966fd6;
+}
+
+.nav li {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:focus {
+	color: #966fd6;
+}
+
+/* Footer */
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 300%;
+	height: 40px;
+	padding: 5px 40px 0px 40px;
+	border-top: thin solid #ddd;
+	background: white;
+}
+
+.connect {
+	display: inline-block;
+}
+
+#connect-text {
+	font-family: 'Allura', cursive;
+	font-size: 28px;
+	color: black;
+}
+
+#connect-icons {
+	/*float: right;*/
+	/*margin-left: 780px;*/
+}
+
+/* CONTENT */
+
+/* Name Div */
+
+.name {
+	font-family: 'Allura', cursive;
+}
+
+#name-center {
+	font-size: 100px;
+}
+
+.contact-icon {
+	height:30px;
+	width:30px;
+	/*bottom: 5px;*/
+	margin-bottom: 10px;
+}
+
+.highlight {
+	/*font-family: 'Allura', cursive;*/
+	/*font-size: 28px;*/
+	color: #966fd6;
+}
+
+#about p {
+	font-size: 18px;
+	letter-spacing: 0.2px;
+}
