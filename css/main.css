@@ -1,6 +1,9 @@
 body { margin: 60px auto; width: 70%; font-family: 'Lato', 'Sans-Serif'; }
 
-a { text-decoration: none; color: #999; }
+a { text-decoration: none; 
+    /*color: #999; */
+    color: #966fd6;
+}
 a:hover { text-decoration: underline; }
 
 p, ul { font-size: 1.3em; line-height: 1.2em; color: #333; 
@@ -27,7 +30,7 @@ ul.posts li { list-style: none; }
 .cv h2 { font-size: 2em; }
 .cv h3 { font-size: 1.5em;}
 /*.cv h4 { font-size: 1.3em;}*/
-.cv address, .cv .download { font-family: 'Lato', 'Arial', 'Sans-Serif'; }
+.cv address, .cv .download { font-family: 'Lato', 'Arial', 'Sans-Serif'; color: #966fd6;}
 .cv address, .cv p { font-size: 1.2em; }
 .cv ul { font-size: 1.1em; }
 .cv entry { font-size: 1em; font-weight: 300;}
