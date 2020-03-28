@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Joy into the World"
+subject: "Joy into the World"
 date: 2015-06-24
 ---
 
