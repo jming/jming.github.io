@@ -5,12 +5,12 @@ a:hover { text-decoration: underline; }
 
 p, ul { color: #333; }
 
-h1, h2, h3, h4 { font-family: 'Satisfy', 'Sans-Serif'; }
+h1 { font-family: 'Satisfy', 'Sans-Serif'; }
 
 nav ul, footer ul { padding: 0px; list-style: none; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 /* Blog */
-ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
+ul.posts { margin: 20px auto 40px; }
 ul.posts li { list-style: none; }
 
