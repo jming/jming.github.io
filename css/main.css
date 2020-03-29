@@ -6,6 +6,7 @@ a:hover { text-decoration: underline; }
 p, ul { color: #333; }
 
 h1 { font-family: 'Satisfy', 'Sans-Serif'; }
+h2 { color: #4c00a4; }
 
 nav ul, footer ul { padding: 0px; list-style: none; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
