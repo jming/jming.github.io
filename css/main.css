@@ -11,6 +11,8 @@ h2 { color: #4c00a4; }
 nav ul, footer ul { padding: 0px; list-style: none; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
+img { max-width: 100%; object-fit: cover; }
+
 /* Blog */
 ul.posts { margin: 20px auto 40px; }
 ul.posts li { list-style: none; }
