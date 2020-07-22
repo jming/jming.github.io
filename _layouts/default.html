@@ -16,8 +16,6 @@
 					{% if node.title %}
 						{% if node.url == page.url %}
 							<li class="active"><a href="{{ node.url }}" class="active">{{ node.title }}</a></li>
-						{% elsif node.url contains "blog" and page.url contains "blog" %}
-							<li class="active"><a href="{{ node.url }}" class="active">{{ node.title }}</a></li>
 						{% else %}
 							<li><a href="{{ node.url }}">{{ node.title }}</a></li>
 						{% endif %}

@@ -6,7 +6,7 @@ a:hover { border-bottom: 2px solid #4c00a4; }
 p, ul { color: #333; }
 
 h1 { font-family: 'Satisfy', 'Sans-Serif'; font-size: 2.5em; }
-h2 { color: #4c00a4; }
+h2 { color: #4c00a4; font-size: 1em;}
 
 nav ul, footer ul { padding: 0px; list-style: none; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
@@ -14,7 +14,12 @@ nav ul li.active { border-bottom: 2px solid #4c00a4; }
 
 img { max-width: 100%; object-fit: cover; }
 
+.row { display: flex; }
+.left { flex: 30%; padding-top: 1em; }
+.right { flex: 70%; padding-left: 20px; }
+
 /* Blog */
-ul.posts { margin: 20px auto 40px; }
-ul.posts li { list-style: none; }
+.excerpt { display: none; }
+.author { display: none; }
+.read-more { display: none; }
 
